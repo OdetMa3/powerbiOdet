@@ -1,0 +1,42 @@
+{
+  "config": "{\"version\":\"5.44\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY23SU04\",\"version\":\"5.45\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"useEnhancedTooltips\":true,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY23SU04",
+            "path": "BaseThemes/CY23SU04.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"3ad6a80f65cc7f56dc78\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.850746268656716,\"y\":0,\"z\":0,\"width\":798.8059701492538,\"height\":428.95522388059703,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"scatterChart\",\"projections\":{\"Category\":[{\"queryRef\":\"טבלה2.סניף\"}],\"X\":[{\"queryRef\":\"טבלה2.Measure\"}],\"Y\":[{\"queryRef\":\"Sum(טבלה2.מק\\\"ט)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"ט\",\"Entity\":\"טבלה2\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"ט\"}},\"Property\":\"סניף\"},\"Name\":\"טבלה2.סניף\",\"NativeReferenceName\":\"סניף\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"ט\"}},\"Property\":\"Measure\"},\"Name\":\"טבלה2.Measure\",\"NativeReferenceName\":\"Measure\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"ט\"}},\"Property\":\"מק\\\"ט\"}},\"Function\":0},\"Name\":\"Sum(טבלה2.מק\\\"ט)\",\"NativeReferenceName\":\"מק\\\"ט\"}]},\"autoSelectVisualType\":true,\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 428.96,
+          "width": 798.81,
+          "x": 9.85,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}
